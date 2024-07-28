@@ -1,0 +1,42 @@
+/* About Us Page Styles */
+
+.about {
+    padding: 4em 2em;
+    text-align: center;
+    background-color: rgb(118, 214, 142);
+}
+
+.about h1 {
+    margin-bottom: 2em;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    background-color: #80c770;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 1em;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.member h3 {
+    margin: 0.5em 0;
+}
+
+.member p {
+    margin: 0.5em 0;
+}
