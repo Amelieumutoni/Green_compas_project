@@ -1,0 +1,116 @@
+/* css/styles.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    color: #333;
+}
+
+header {
+    background-color: #34C759;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+
+    background: url('images/WhatsApp Image 2024-07-28 at 16.56.19.jpeg');
+    background-size: no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.8em 2em;
+    background-color: #2196F3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1976D2;
+}
+
+.features {
+    background-color: white;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 2em;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #F7DC6F;
+    padding: 2em;
+    border-radius: 5px;
+    margin: 1em;
+    flex: 1 1 200px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.cta {
+    background-color: #34C759;
+    color: white;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
